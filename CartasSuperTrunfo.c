@@ -1,12 +1,6 @@
 #include <stdio.h>
 
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
   //carta 1
   int populacao,pontos; //cadastro da pupulação e da quantidade de pontos turisticos a cidade possui.
@@ -35,6 +29,7 @@ int main() {
   printf("Insira o PIB: "); // solicitar para o usuário insira o PIB.
   scanf("%f", &PIB); //Usuário insere o PIB.
 
+  //carta 2
   int populacao1, pontos1; //cadastro da população e quantidades de pontos turísticos da segunda carta.
   char codigo1[10], estado1[50], cidade1[50]; //cadastro do código da segunda carta, cidade e estado.
   float area1, PIB1; //cadastro da area em km² e PIB da segunda carta.
@@ -60,7 +55,7 @@ int main() {
   printf("Insira o PIB da segunda carta: "); //solicitar para o usuário insira o PIB
   scanf("%f", &PIB1); //Usuário insere o PIB.
 
-// Faz a leitura dos dados da carta 1.
+// imprime os dados da carta 1.
   printf("\n Detalhes da carta 1 \n");
   printf("Estado: %s  \n", estado);
   printf("Cidade: %s \n", cidade);
@@ -70,7 +65,7 @@ int main() {
   printf("A cidade possui %.0f km² \n", area);
   printf("PIB: %.0f \n", PIB);
 
-// Faz a leitura dos dados da carta 2.
+// imprime os dados da carta 2.
   printf("\n Detalhes da carta 2 \n");
   printf("Estado: %s \n", estado1);
   printf("Cidade: %s \n", cidade1);
