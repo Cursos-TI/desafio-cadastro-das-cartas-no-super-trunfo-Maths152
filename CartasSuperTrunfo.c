@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
@@ -7,6 +8,47 @@
 //Teste larissa
 
 int main() {
+  
+  int populacao,pontos; //cadastro da pupulação e da quantidade de pontos turisticos a cidade possui.
+  char codigo[10],cidade [50],estado [50]; // cadastro do código da carta, nome da cidade e nome do estado.
+  float area, PIB; //cadastro da área em km² e do PIB.
+
+  printf("Insira o estado: "); // solicitar para o usuário insira o estado
+  scanf("%s", estado); // Usuário insere o estado
+  
+  printf("Insira o nome da cidade: "); // solicitar para o usuário insira o nome da cidade
+  scanf("%s", cidade); //Usuario insere a cidade
+
+  printf("Insira o código da carta: "); // solicitar para o usuário insira o codigo da carta
+  scanf("%s", codigo); //Usuário insere o código da carta
+
+  printf("Insira a quantidade de habitantes: "); // solicitar para o usuário insira a população da cidade
+  scanf("%d", &populacao); //Usúario insere a população.
+
+  printf("Insira a quantidade de pontos turisticos: "); // solicitar para o usuário insira a quantidade de pontos turísticos.
+  scanf("%d", &pontos); //Usuário insere a quantidade de pontos turísticos.
+
+  printf("Insira a area da cidade em km²: "); // solicitar para o usuário insira a área em km² que a cidade possui.
+  scanf("%f", &area); //Usuário insere a área em km².
+
+  printf("Insira o PIB: "); // solicitar para o usuário insira o PIB.
+  scanf("%f", &PIB); //Usuário insere o PIB.
+
+  printf("O nome do estado é: %s  \n", estado);
+  printf("A cidade é: %s \n", cidade);
+  printf("O codigo da carta é: %s \n", codigo);
+  printf("A quantidade de habitantes é: %d \n", populacao);
+  printf("A cidade possui %d de pontos turísticos \n", pontos);
+  printf("A cidade possui %f km² \n", area);
+  printf("O PIB da cidade é: %f \n", PIB);
+
+  
+  
+  
+  
+  
+  
+  
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
