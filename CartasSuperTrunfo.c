@@ -35,32 +35,32 @@ int main() {
   printf("Insira o PIB: "); // solicitar para o usuário insira o PIB.
   scanf("%f", &PIB); //Usuário insere o PIB.
 
-  int populacao1, pontos1;
-  char codigo1[10], estado1[50], cidade1[50];
-  float area1, PIB1;
+  int populacao1, pontos1; //cadastro da população e quantidades de pontos turísticos da segunda carta.
+  char codigo1[10], estado1[50], cidade1[50]; //cadastro do código da segunda carta, cidade e estado.
+  float area1, PIB1; //cadastro da area em km² e PIB da segunda carta.
 
-  printf("\nInsira o estado da segunda carta: ");
-  scanf("%s", estado1);
+  printf("\nInsira o estado da segunda carta: "); //solicitar para o usuário insira o estado.
+  scanf("%s", estado1); //Usuário insere o estado.
 
-  printf("Insira o nome da cidade da segunda carta: ");
-  scanf("%s", cidade1);
+  printf("Insira o nome da cidade da segunda carta: "); //solicitar para o usuário insira a cidade.
+  scanf("%s", cidade1); //Usuário insere a cidade.
 
-  printf("Insira o código da segunda carta: ");
-  scanf("%s", codigo1);
+  printf("Insira o código da segunda carta: "); //solicitar para o usuário insira o código da segunda carta.
+  scanf("%s", codigo1); //Usuário insere o codigo.
 
-  printf("Insira a quantidade de habitantes da segunda carta: ");
-  scanf("%d", &populacao1);
+  printf("Insira a quantidade de habitantes da segunda carta: "); //solicitar para o usuário insira a população.
+  scanf("%d", &populacao1); //Usuário insere a população.
 
-  printf("Insira quantos pontos turísticos possui a segunda carta: ");
-  scanf("%d", &pontos1);
+  printf("Insira quantos pontos turísticos possui a segunda carta: "); //solicitar para o usuário insira a quantidade de pontos turísticos.
+  scanf("%d", &pontos1); //Usuário insere a quantidade de pontos turísticos.
 
-  printf("Insira a área em km² da segunda carta: ");
-  scanf("%f", &area1);
+  printf("Insira a área em km² da segunda carta: "); //solicitar para o usuário insira a área em km².
+  scanf("%f", &area1); //Usuário insere a área em km².
 
-  printf("Insira o PIB da segunda carta: ");
-  scanf("%f", &PIB1);
+  printf("Insira o PIB da segunda carta: "); //solicitar para o usuário insira o PIB
+  scanf("%f", &PIB1); //Usuário insere o PIB.
 
-
+// Faz a leitura dos dados da carta 1.
   printf("\n Detalhes da carta 1 \n");
   printf("Estado: %s  \n", estado);
   printf("Cidade: %s \n", cidade);
@@ -70,7 +70,7 @@ int main() {
   printf("A cidade possui %.0f km² \n", area);
   printf("PIB: %.0f \n", PIB);
 
-
+// Faz a leitura dos dados da carta 2.
   printf("\n Detalhes da carta 2 \n");
   printf("Estado: %s \n", estado1);
   printf("Cidade: %s \n", cidade1);
