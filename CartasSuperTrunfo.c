@@ -8,11 +8,12 @@
 //Teste larissa
 
 int main() {
-  
+  //carta 1
   int populacao,pontos; //cadastro da pupulação e da quantidade de pontos turisticos a cidade possui.
   char codigo[10],cidade [50],estado [50]; // cadastro do código da carta, nome da cidade e nome do estado.
   float area, PIB; //cadastro da área em km² e do PIB.
 
+ 
   printf("Insira o estado: "); // solicitar para o usuário insira o estado
   scanf("%s", estado); // Usuário insere o estado
   
@@ -34,15 +35,51 @@ int main() {
   printf("Insira o PIB: "); // solicitar para o usuário insira o PIB.
   scanf("%f", &PIB); //Usuário insere o PIB.
 
-  printf("O nome do estado é: %s  \n", estado);
-  printf("A cidade é: %s \n", cidade);
-  printf("O codigo da carta é: %s \n", codigo);
-  printf("A quantidade de habitantes é: %d \n", populacao);
-  printf("A cidade possui %d de pontos turísticos \n", pontos);
-  printf("A cidade possui %f km² \n", area);
-  printf("O PIB da cidade é: %f \n", PIB);
+  int populacao1, pontos1;
+  char codigo1[10], estado1[50], cidade1[50];
+  float area1, PIB1;
 
-  
+  printf("\nInsira o estado da segunda carta: ");
+  scanf("%s", estado1);
+
+  printf("Insira o nome da cidade da segunda carta: ");
+  scanf("%s", cidade1);
+
+  printf("Insira o código da segunda carta: ");
+  scanf("%s", codigo1);
+
+  printf("Insira a quantidade de habitantes da segunda carta: ");
+  scanf("%d", &populacao1);
+
+  printf("Insira quantos pontos turísticos possui a segunda carta: ");
+  scanf("%d", &pontos1);
+
+  printf("Insira a área em km² da segunda carta: ");
+  scanf("%f", &area1);
+
+  printf("Insira o PIB da segunda carta: ");
+  scanf("%f", &PIB1);
+
+
+  printf("\n Detalhes da carta 1 \n");
+  printf("Estado: %s  \n", estado);
+  printf("Cidade: %s \n", cidade);
+  printf("Codigo: %s \n", codigo);
+  printf("População: %d \n", populacao);
+  printf("Pontos turísticos: %d \n", pontos);
+  printf("A cidade possui %.0f km² \n", area);
+  printf("PIB: %.0f \n", PIB);
+
+
+  printf("\n Detalhes da carta 2 \n");
+  printf("Estado: %s \n", estado1);
+  printf("Cidade: %s \n", cidade1);
+  printf("Codigo: %s \n", codigo1);
+  printf("População: %d \n", populacao1);
+  printf("pontos turrísticos: %d \n",pontos1);
+  printf("A cidade possui %.0f km² \n", area1);
+  printf("PIB: %.0f \n", PIB1);
+
   
   
   
